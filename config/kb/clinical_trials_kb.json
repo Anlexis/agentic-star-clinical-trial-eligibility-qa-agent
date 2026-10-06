@@ -1,0 +1,134 @@
+[
+  {
+    "id": "xyz123-inc-01",
+    "trial_id": "XYZ-123",
+    "trial_name": "A Phase II Study of Agent X in Advanced Non-Small Cell Lung Cancer",
+    "criterion_type": "inclusion",
+    "category": "age",
+    "criterion_text": "Patient must be an adult, 18 years of age or older, at the time of consent.",
+    "explicit_terms": ["adult patient", "18 years or older", "age 18", "aged 18", "over 18 years", "18+ years"],
+    "implicit_hint_terms": ["adult"],
+    "source": "Protocol XYZ-123 v2.1, Section 4.1 Inclusion Criteria, item 1"
+  },
+  {
+    "id": "xyz123-inc-02",
+    "trial_id": "XYZ-123",
+    "trial_name": "A Phase II Study of Agent X in Advanced Non-Small Cell Lung Cancer",
+    "criterion_type": "inclusion",
+    "category": "diagnosis",
+    "criterion_text": "Histologically or cytologically confirmed Stage II or III non-small cell lung cancer (NSCLC).",
+    "explicit_terms": ["nsclc", "non-small cell lung cancer", "stage ii nsclc", "stage iii nsclc", "stage ii", "stage iii"],
+    "implicit_hint_terms": ["lung cancer"],
+    "source": "Protocol XYZ-123 v2.1, Section 4.1 Inclusion Criteria, item 2"
+  },
+  {
+    "id": "xyz123-inc-03",
+    "trial_id": "XYZ-123",
+    "trial_name": "A Phase II Study of Agent X in Advanced Non-Small Cell Lung Cancer",
+    "criterion_type": "inclusion",
+    "category": "performance_status",
+    "criterion_text": "ECOG performance status of 0 or 1 at screening.",
+    "explicit_terms": ["ecog 0", "ecog 1", "ecog performance status 0", "ecog performance status 1", "performance status 0", "performance status 1", "ecog 0-1"],
+    "implicit_hint_terms": ["good performance status", "fully active"],
+    "source": "Protocol XYZ-123 v2.1, Section 4.1 Inclusion Criteria, item 3"
+  },
+  {
+    "id": "xyz123-inc-04",
+    "trial_id": "XYZ-123",
+    "trial_name": "A Phase II Study of Agent X in Advanced Non-Small Cell Lung Cancer",
+    "criterion_type": "inclusion",
+    "category": "lab_value",
+    "criterion_text": "Adequate organ function (hepatic, renal, hematologic) per the protocol lab panel, documented within 14 days of enrollment.",
+    "explicit_terms": ["adequate organ function", "normal organ function", "labs within protocol limits", "lab panel within protocol limits"],
+    "implicit_hint_terms": ["recent labs", "recent lab panel"],
+    "source": "Protocol XYZ-123 v2.1, Section 4.1 Inclusion Criteria, item 4"
+  },
+  {
+    "id": "xyz123-exc-01",
+    "trial_id": "XYZ-123",
+    "trial_name": "A Phase II Study of Agent X in Advanced Non-Small Cell Lung Cancer",
+    "criterion_type": "exclusion",
+    "category": "prior_treatment",
+    "criterion_text": "Prior systemic chemotherapy for NSCLC.",
+    "explicit_terms": ["prior chemotherapy", "received chemotherapy", "history of chemotherapy", "previously treated with chemotherapy", "prior chemo"],
+    "implicit_hint_terms": ["chemo"],
+    "source": "Protocol XYZ-123 v2.1, Section 4.2 Exclusion Criteria, item 1"
+  },
+  {
+    "id": "xyz123-exc-02",
+    "trial_id": "XYZ-123",
+    "trial_name": "A Phase II Study of Agent X in Advanced Non-Small Cell Lung Cancer",
+    "criterion_type": "exclusion",
+    "category": "diagnosis",
+    "criterion_text": "Active, untreated central nervous system (CNS) or brain metastases.",
+    "explicit_terms": ["untreated brain metastases", "active brain metastases", "untreated cns metastases", "active cns metastases", "brain metastases", "cns metastases"],
+    "implicit_hint_terms": ["brain mets"],
+    "source": "Protocol XYZ-123 v2.1, Section 4.2 Exclusion Criteria, item 2"
+  },
+  {
+    "id": "xyz123-exc-03",
+    "trial_id": "XYZ-123",
+    "trial_name": "A Phase II Study of Agent X in Advanced Non-Small Cell Lung Cancer",
+    "criterion_type": "exclusion",
+    "category": "other",
+    "criterion_text": "Known hypersensitivity to Agent X or its excipients.",
+    "explicit_terms": ["hypersensitivity to agent x", "known allergy to excipients", "drug hypersensitivity"],
+    "implicit_hint_terms": ["allergy"],
+    "source": "Protocol XYZ-123 v2.1, Section 4.2 Exclusion Criteria, item 3"
+  },
+  {
+    "id": "abc456-inc-01",
+    "trial_id": "ABC-456",
+    "trial_name": "A Randomized Trial of Agent Y for Type 2 Diabetes with Chronic Kidney Disease",
+    "criterion_type": "inclusion",
+    "category": "diagnosis",
+    "criterion_text": "Confirmed diagnosis of Type 2 Diabetes Mellitus.",
+    "explicit_terms": ["type 2 diabetes", "t2dm", "type 2 diabetes mellitus"],
+    "implicit_hint_terms": ["diabetes", "diabetic"],
+    "source": "Protocol ABC-456 v1.3, Section 4.1 Inclusion Criteria, item 1"
+  },
+  {
+    "id": "abc456-inc-02",
+    "trial_id": "ABC-456",
+    "trial_name": "A Randomized Trial of Agent Y for Type 2 Diabetes with Chronic Kidney Disease",
+    "criterion_type": "inclusion",
+    "category": "lab_value",
+    "criterion_text": "Estimated glomerular filtration rate (eGFR) between 30 and 60 mL/min/1.73m^2 (moderate chronic kidney disease) at screening.",
+    "explicit_terms": ["egfr 30-60", "egfr between 30 and 60", "moderate chronic kidney disease", "ckd stage 3"],
+    "implicit_hint_terms": ["chronic kidney disease", "ckd"],
+    "source": "Protocol ABC-456 v1.3, Section 4.1 Inclusion Criteria, item 2"
+  },
+  {
+    "id": "abc456-inc-03",
+    "trial_id": "ABC-456",
+    "trial_name": "A Randomized Trial of Agent Y for Type 2 Diabetes with Chronic Kidney Disease",
+    "criterion_type": "inclusion",
+    "category": "lab_value",
+    "criterion_text": "HbA1c between 7% and 10% (inclusive) at screening.",
+    "explicit_terms": ["hba1c 7", "hba1c between 7 and 10", "a1c 7"],
+    "implicit_hint_terms": ["elevated hba1c", "elevated a1c"],
+    "source": "Protocol ABC-456 v1.3, Section 4.1 Inclusion Criteria, item 3"
+  },
+  {
+    "id": "abc456-exc-01",
+    "trial_id": "ABC-456",
+    "trial_name": "A Randomized Trial of Agent Y for Type 2 Diabetes with Chronic Kidney Disease",
+    "criterion_type": "exclusion",
+    "category": "prior_treatment",
+    "criterion_text": "History of diabetic ketoacidosis (DKA) within 6 months of screening.",
+    "explicit_terms": ["diabetic ketoacidosis", "dka within 6 months", "recent dka"],
+    "implicit_hint_terms": ["ketoacidosis"],
+    "source": "Protocol ABC-456 v1.3, Section 4.2 Exclusion Criteria, item 1"
+  },
+  {
+    "id": "abc456-exc-02",
+    "trial_id": "ABC-456",
+    "trial_name": "A Randomized Trial of Agent Y for Type 2 Diabetes with Chronic Kidney Disease",
+    "criterion_type": "exclusion",
+    "category": "other",
+    "criterion_text": "Currently receiving dialysis (hemodialysis or peritoneal dialysis).",
+    "explicit_terms": ["on dialysis", "currently receiving dialysis", "hemodialysis", "peritoneal dialysis"],
+    "implicit_hint_terms": ["dialysis"],
+    "source": "Protocol ABC-456 v1.3, Section 4.2 Exclusion Criteria, item 2"
+  }
+]
